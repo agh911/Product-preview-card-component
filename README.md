@@ -18,8 +18,8 @@ Mobile size
 ![product-card-mobile-size](images/product-card-mobile.png)
 
 ## Links
-* [GitHub Repository]()
-* [Live URL]()
+* [Solution](https://github.com/agh911/Product-preview-card-component)
+* [Live URL](https://agh911.github.io/Product-preview-card-component/)
 
 ## Built with
 - Semantic HTML5 markup
