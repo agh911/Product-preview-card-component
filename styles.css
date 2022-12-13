@@ -19,13 +19,13 @@ body {
 h1 {
     font-family: 'Fraunces', serif;
     color: var(--neutral-dark-blue);
-    font-size: 40pxm;
+    font-size: 40px;
     padding: 20px 0;
 }
 
 .description {
     background: var(--neutral-white);
-    padding: 2em;
+    padding: 2.5em;
     border-radius: 0 10px 10px 0;
 }
 
@@ -75,13 +75,15 @@ main {
 button {
     background-color: var(--primary-dark-cyan);
     color: var(--neutral-white);
-    width: 180px;
+    width: 320px;
     height: 50px;
+    margin-top: 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    justify-content: center;
 }
 
 button:hover {
@@ -93,7 +95,11 @@ Desktop: 1440px */
 
 @media only screen and (max-width: 600px) {
     main {
-        margin-bottom: 170px;
+        margin-bottom: 200px;
+    }
+    
+    h1 {
+        font-size: 32px;
     }
     
     .container {
